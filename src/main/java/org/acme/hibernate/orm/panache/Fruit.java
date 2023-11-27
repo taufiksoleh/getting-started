@@ -6,7 +6,7 @@ import jakarta.persistence.Entity;
 
 @Entity
 @Cacheable
-class Fruit extends BaseEntity {
+public class Fruit extends BaseEntity {
 
     @Column(length = 40, unique = true)
     public String name;
